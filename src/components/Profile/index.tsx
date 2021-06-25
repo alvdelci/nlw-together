@@ -1,11 +1,16 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+
+import { Avatar } from '../Avatar/index';
 import { styles } from './styles';
 
 export function Profile() {
 
     return (
         <View style={styles.container}>
+
+            <Avatar urlImage="https://github.com/alvdelci.png" />
+
             <View>
                 <View style={styles.user}>
                     <Text style={styles.greeting}>
@@ -13,7 +18,7 @@ export function Profile() {
                     </Text>
 
                     <Text style={styles.username}>
-                        Joaquim
+                        Rafithy
                     </Text>
                 </View>
 
