@@ -82,7 +82,7 @@ export function AppointmentDetails() {
             />
 
             <View style={styles.footer}>
-                <ButtonIcon title="Entar na partida" />
+                <ButtonIcon title="Entrar na partida" />
             </View>
 
         </Background>
