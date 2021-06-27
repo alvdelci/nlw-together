@@ -13,10 +13,6 @@ export const styles = StyleSheet.create({
         marginTop: getStatusBarHeight() +  26, //Pega a altura da tela (em iphones) e depois adiciona a margem. No android ja vai a margem direto
         marginBottom: 42
     },
-    content: {
-        marginTop: 42,
-        
-    },
     matches: {
         marginTop: 24,
         marginLeft: 24
