@@ -23,6 +23,18 @@ export function Guilds({ handleGuildSelect }: Props) {
             name: 'Invictors',
             icon: null,
             owner: false
+        },
+        {
+            id: '3',
+            name: 'Invictors',
+            icon: null,
+            owner: false
+        },
+        {
+            id: '4',
+            name: 'Invictors',
+            icon: null,
+            owner: false
         }
     ]
     return (
@@ -37,7 +49,9 @@ export function Guilds({ handleGuildSelect }: Props) {
                     />
                 )}
                 showsVerticalScrollIndicator={false}
-                ItemSeparatorComponent={() => <ListDivider />}
+                ListHeaderComponent={() => <ListDivider isCentered />}
+                ItemSeparatorComponent={() => <ListDivider isCentered />}
+                contentContainerStyle={{ paddingBottom: 68, paddingTop: 103 }}
                 style={styles.guilds}
             />
         </View>
